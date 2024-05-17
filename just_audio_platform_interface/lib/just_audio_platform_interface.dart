@@ -220,6 +220,9 @@ abstract class AudioPlayerPlatform {
     throw UnimplementedError("startVisualizer() has not been implemented.");
   }
 
+  Future<int> getMaxCaptureRate(){
+     throw UnimplementedError("getMaxCaptureRate() has not been implemented."); 
+  }
   /// Stops the visualizer.
   Future<StopVisualizerResponse> stopVisualizer(StopVisualizerRequest request) {
     throw UnimplementedError("stopVisualizer() has not been implemented.");
